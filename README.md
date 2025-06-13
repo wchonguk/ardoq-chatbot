@@ -22,29 +22,29 @@ A lightweight chatbot built with Python and Flask that lets users interact with 
 ```bash
 git clone https://github.com/<your-username>/ardoq-chatbot.git
 cd ardoq-chatbot
-
+```
 ### 2. Create a virtual environment (optional but recommended)
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
-
+```
 ### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### 4. Add your .env file (⚠️ Do NOT commit this)
 Create a .env file in the project root:
 
 ```bash
 ARDOQ_API_TOKEN=your-token-here
-
+```
 Make sure .env is listed in .gitignore so it won’t be pushed to GitHub.
 
 ### 5. Add your .env file (⚠️ Do NOT commit this)
 
 ```bash
 flask run
-
+```
 Then open your browser to http://localhost:5000
